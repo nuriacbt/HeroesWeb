@@ -1,0 +1,892 @@
+{
+  "heroes": [
+    {
+      "id": "23",
+      "name": "Angel-modify",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10431.jpg",
+      "intelligence": 56,
+      "speed": 74,
+      "combat": 46
+    },
+    {
+      "id": "26",
+      "name": "Angel Salvadore",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1406.jpg",
+      "intelligence": 68,
+      "speed": 70,
+      "combat": 50
+    },
+    {
+      "id": "28",
+      "name": "Animal Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/632.jpg",
+      "intelligence": 69,
+      "speed": 53,
+      "combat": 44
+    },
+    {
+      "id": "30",
+      "name": "Ant-Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/857.jpg",
+      "intelligence": 95,
+      "speed": 85,
+      "combat": 57
+    },
+    {
+      "id": "34",
+      "name": "Anti-Venom",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1485.jpg",
+      "intelligence": 77,
+      "speed": 80,
+      "combat": 52
+    },
+    {
+      "id": "38",
+      "name": "Aquaman",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/634.jpg",
+      "intelligence": 96,
+      "speed": 40,
+      "combat": 52
+    },
+    {
+      "id": "40",
+      "name": "Archangel",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/838.jpg",
+      "intelligence": 73,
+      "speed": 50,
+      "combat": 94
+    },
+    {
+      "id": "47",
+      "name": "Astro Boy",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1159.jpg",
+      "intelligence": 93,
+      "speed": 64,
+      "combat": 91
+    },
+    {
+      "id": "49",
+      "name": "Atlas",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10838.jpg",
+      "intelligence": 72,
+      "speed": 63,
+      "combat": 86
+    },
+    {
+      "id": "50",
+      "name": "Atom",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/934.jpg",
+      "intelligence": 100,
+      "speed": 83,
+      "combat": 61
+    },
+    {
+      "id": "52",
+      "name": "Atom Girl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1180.jpg",
+      "intelligence": 92,
+      "speed": 76,
+      "combat": 63
+    },
+    {
+      "id": "63",
+      "name": "Batgirl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1111.jpg",
+      "intelligence": 99,
+      "speed": 53,
+      "combat": 47
+    },
+    {
+      "id": "69",
+      "name": "Batman",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg",
+      "intelligence": 60,
+      "speed": 63,
+      "combat": 46
+    },
+    {
+      "id": "88",
+      "name": "Bird-Brain",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/240.jpg",
+      "intelligence": 55,
+      "speed": 89,
+      "combat": 58
+    },
+    {
+      "id": "89",
+      "name": "Bird-Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1503.jpg",
+      "intelligence": 63,
+      "speed": 54,
+      "combat": 48
+    },
+    {
+      "id": "95",
+      "name": "Black Adam",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/643.jpg",
+      "intelligence": 96,
+      "speed": 70,
+      "combat": 56
+    },
+    {
+      "id": "99",
+      "name": "Black Cat",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/32.jpg",
+      "intelligence": 61,
+      "speed": 77,
+      "combat": 89
+    },
+    {
+      "id": "106",
+      "name": "Black Panther",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/247.jpg",
+      "intelligence": 63,
+      "speed": 63,
+      "combat": 46
+    },
+    {
+      "id": "107",
+      "name": "Black Widow",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/248.jpg",
+      "intelligence": 79,
+      "speed": 84,
+      "combat": 51
+    },
+    {
+      "id": "119",
+      "name": "Blob",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1119.jpg",
+      "intelligence": 42,
+      "speed": 88,
+      "combat": 88
+    },
+    {
+      "id": "149",
+      "name": "Captain America",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/274.jpg",
+      "intelligence": 62,
+      "speed": 82,
+      "combat": 80
+    },
+    {
+      "id": "150",
+      "name": "Captain Atom",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1007.jpg",
+      "intelligence": 73,
+      "speed": 67,
+      "combat": 88
+    },
+    {
+      "id": "156",
+      "name": "Captain Marvel",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/278.jpg",
+      "intelligence": 53,
+      "speed": 53,
+      "combat": 41
+    },
+    {
+      "id": "160",
+      "name": "Captain Planet",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1285.jpg",
+      "intelligence": 100,
+      "speed": 80,
+      "combat": 50
+    },
+    {
+      "id": "161",
+      "name": "Captain Universe",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/855.jpg",
+      "intelligence": 52,
+      "speed": 53,
+      "combat": 43
+    },
+    {
+      "id": "163",
+      "name": "Cat",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/904.jpg",
+      "intelligence": 77,
+      "speed": 87,
+      "combat": 71
+    },
+    {
+      "id": "185",
+      "name": "Colossus",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/48.jpg",
+      "intelligence": 80,
+      "speed": 82,
+      "combat": 44
+    },
+    {
+      "id": "186",
+      "name": "Copycat",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10423.jpg",
+      "intelligence": 41,
+      "speed": 95,
+      "combat": 59
+    },
+    {
+      "id": "194",
+      "name": "Cyborg",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1204.jpg",
+      "intelligence": 62,
+      "speed": 77,
+      "combat": 61
+    },
+    {
+      "id": "201",
+      "name": "Daredevil",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/52.jpg",
+      "intelligence": 54,
+      "speed": 76,
+      "combat": 54
+    },
+    {
+      "id": "203",
+      "name": "Darkman",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1126.jpg",
+      "intelligence": 94,
+      "speed": 65,
+      "combat": 76
+    },
+    {
+      "id": "222",
+      "name": "Doctor Doom",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/189.jpg",
+      "intelligence": 68,
+      "speed": 95,
+      "combat": 63
+    },
+    {
+      "id": "224",
+      "name": "Doctor Fate",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/676.jpg",
+      "intelligence": 83,
+      "speed": 53,
+      "combat": 99
+    },
+    {
+      "id": "225",
+      "name": "Doctor Octopus",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/622.jpg",
+      "intelligence": 49,
+      "speed": 79,
+      "combat": 61
+    },
+    {
+      "id": "226",
+      "name": "Doctor Strange",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/55.jpg",
+      "intelligence": 56,
+      "speed": 68,
+      "combat": 72
+    },
+    {
+      "id": "227",
+      "name": "Domino",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/902.jpg",
+      "intelligence": 80,
+      "speed": 92,
+      "combat": 60
+    },
+    {
+      "id": "228",
+      "name": "Donatello",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10330.jpg",
+      "intelligence": 54,
+      "speed": 73,
+      "combat": 70
+    },
+    {
+      "id": "233",
+      "name": "Dr Manhattan",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/884.jpg",
+      "intelligence": 91,
+      "speed": 94,
+      "combat": 66
+    },
+    {
+      "id": "236",
+      "name": "Elastigirl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/870.jpg",
+      "intelligence": 49,
+      "speed": 57,
+      "combat": 84
+    },
+    {
+      "id": "251",
+      "name": "Falcon",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/56.jpg",
+      "intelligence": 77,
+      "speed": 40,
+      "combat": 75
+    },
+    {
+      "id": "263",
+      "name": "Flash",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/891.jpg",
+      "intelligence": 85,
+      "speed": 57,
+      "combat": 89
+    },
+    {
+      "id": "273",
+      "name": "Galactus",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/862.jpg",
+      "intelligence": 67,
+      "speed": 78,
+      "combat": 58
+    },
+    {
+      "id": "280",
+      "name": "Ghost Rider",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/67.jpg",
+      "intelligence": 62,
+      "speed": 79,
+      "combat": 76
+    },
+    {
+      "id": "285",
+      "name": "Gladiator",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1521.jpg",
+      "intelligence": 50,
+      "speed": 75,
+      "combat": 46
+    },
+    {
+      "id": "287",
+      "name": "Godzilla",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10590.jpg",
+      "intelligence": 85,
+      "speed": 49,
+      "combat": 56
+    },
+    {
+      "id": "289",
+      "name": "Goku",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1284.jpg",
+      "intelligence": 97,
+      "speed": 86,
+      "combat": 43
+    },
+    {
+      "id": "298",
+      "name": "Green Arrow",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/696.jpg",
+      "intelligence": 42,
+      "speed": 60,
+      "combat": 86
+    },
+    {
+      "id": "299",
+      "name": "Green Goblin",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/579.jpg",
+      "intelligence": 66,
+      "speed": 89,
+      "combat": 62
+    },
+    {
+      "id": "303",
+      "name": "Groot",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10017.jpg",
+      "intelligence": 47,
+      "speed": 49,
+      "combat": 84
+    },
+    {
+      "id": "304",
+      "name": "Guardian",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/76.jpg",
+      "intelligence": 88,
+      "speed": 41,
+      "combat": 56
+    },
+    {
+      "id": "308",
+      "name": "Hancock",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1109.jpg",
+      "intelligence": 65,
+      "speed": 96,
+      "combat": 53
+    },
+    {
+      "id": "309",
+      "name": "Harley Quinn",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/701.jpg",
+      "intelligence": 87,
+      "speed": 52,
+      "combat": 91
+    },
+    {
+      "id": "310",
+      "name": "Harry Potter",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10878.jpg",
+      "intelligence": 94,
+      "speed": 60,
+      "combat": 79
+    },
+    {
+      "id": "315",
+      "name": "Hawkgirl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/703.jpg",
+      "intelligence": 42,
+      "speed": 95,
+      "combat": 54
+    },
+    {
+      "id": "316",
+      "name": "Hawkman",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/839.jpg",
+      "intelligence": 96,
+      "speed": 82,
+      "combat": 50
+    },
+    {
+      "id": "325",
+      "name": "Hercules",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/78.jpg",
+      "intelligence": 63,
+      "speed": 64,
+      "combat": 88
+    },
+    {
+      "id": "326",
+      "name": "Hiro Nakamura",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/947.jpg",
+      "intelligence": 56,
+      "speed": 74,
+      "combat": 47
+    },
+    {
+      "id": "332",
+      "name": "Hulk",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/83.jpg",
+      "intelligence": 47,
+      "speed": 70,
+      "combat": 86
+    },
+    {
+      "id": "337",
+      "name": "Hydro-Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1451.jpg",
+      "intelligence": 86,
+      "speed": 67,
+      "combat": 52
+    },
+    {
+      "id": "339",
+      "name": "Iceman",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/816.jpg",
+      "intelligence": 56,
+      "speed": 48,
+      "combat": 89
+    },
+    {
+      "id": "341",
+      "name": "Indiana Jones",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10560.jpg",
+      "intelligence": 72,
+      "speed": 51,
+      "combat": 83
+    },
+    {
+      "id": "345",
+      "name": "Iron Fist",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1120.jpg",
+      "intelligence": 63,
+      "speed": 85,
+      "combat": 42
+    },
+    {
+      "id": "346",
+      "name": "Iron Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/85.jpg",
+      "intelligence": 47,
+      "speed": 44,
+      "combat": 45
+    },
+    {
+      "id": "386",
+      "name": "Killer Croc",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/723.jpg",
+      "intelligence": 69,
+      "speed": 60,
+      "combat": 56
+    },
+    {
+      "id": "387",
+      "name": "Killer Frost",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10508.jpg",
+      "intelligence": 94,
+      "speed": 88,
+      "combat": 81
+    },
+    {
+      "id": "389",
+      "name": "King Kong",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10591.jpg",
+      "intelligence": 52,
+      "speed": 94,
+      "combat": 91
+    },
+    {
+      "id": "390",
+      "name": "King Shark",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10512.jpg",
+      "intelligence": 92,
+      "speed": 82,
+      "combat": 99
+    },
+    {
+      "id": "396",
+      "name": "Krypto",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/725.jpg",
+      "intelligence": 61,
+      "speed": 54,
+      "combat": 47
+    },
+    {
+      "id": "414",
+      "name": "Loki",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/928.jpg",
+      "intelligence": 94,
+      "speed": 64,
+      "combat": 97
+    },
+    {
+      "id": "418",
+      "name": "Luke Skywalker",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10447.jpg",
+      "intelligence": 45,
+      "speed": 63,
+      "combat": 100
+    },
+    {
+      "id": "419",
+      "name": "Luna",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/933.jpg",
+      "intelligence": 44,
+      "speed": 65,
+      "combat": 58
+    },
+    {
+      "id": "422",
+      "name": "Machine Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/90.jpg",
+      "intelligence": 98,
+      "speed": 44,
+      "combat": 74
+    },
+    {
+      "id": "423",
+      "name": "Magneto",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/12.jpg",
+      "intelligence": 55,
+      "speed": 95,
+      "combat": 51
+    },
+    {
+      "id": "426",
+      "name": "Man of Miracles",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10889.jpg",
+      "intelligence": 97,
+      "speed": 66,
+      "combat": 85
+    },
+    {
+      "id": "428",
+      "name": "Man-Thing",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/382.jpg",
+      "intelligence": 91,
+      "speed": 84,
+      "combat": 97
+    },
+    {
+      "id": "429",
+      "name": "Man-Wolf",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/91.jpg",
+      "intelligence": 62,
+      "speed": 97,
+      "combat": 96
+    },
+    {
+      "id": "433",
+      "name": "Marvel Girl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/94.jpg",
+      "intelligence": 69,
+      "speed": 98,
+      "combat": 71
+    },
+    {
+      "id": "485",
+      "name": "Naruto Uzumaki",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1540.jpg",
+      "intelligence": 73,
+      "speed": 49,
+      "combat": 96
+    },
+    {
+      "id": "502",
+      "name": "One Punch Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10522.jpg",
+      "intelligence": 74,
+      "speed": 86,
+      "combat": 76
+    },
+    {
+      "id": "506",
+      "name": "Osiris",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1165.jpg",
+      "intelligence": 100,
+      "speed": 59,
+      "combat": 93
+    },
+    {
+      "id": "514",
+      "name": "Penguin",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/753.jpg",
+      "intelligence": 68,
+      "speed": 68,
+      "combat": 96
+    },
+    {
+      "id": "515",
+      "name": "Phantom",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/889.jpg",
+      "intelligence": 49,
+      "speed": 41,
+      "combat": 69
+    },
+    {
+      "id": "516",
+      "name": "Phantom Girl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1184.jpg",
+      "intelligence": 43,
+      "speed": 65,
+      "combat": 63
+    },
+    {
+      "id": "524",
+      "name": "Power Girl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/758.jpg",
+      "intelligence": 68,
+      "speed": 73,
+      "combat": 69
+    },
+    {
+      "id": "525",
+      "name": "Power Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1016.jpg",
+      "intelligence": 76,
+      "speed": 90,
+      "combat": 72
+    },
+    {
+      "id": "545",
+      "name": "Red Arrow",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1013.jpg",
+      "intelligence": 83,
+      "speed": 54,
+      "combat": 41
+    },
+    {
+      "id": "547",
+      "name": "Red Hulk",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1342.jpg",
+      "intelligence": 78,
+      "speed": 91,
+      "combat": 63
+    },
+    {
+      "id": "549",
+      "name": "Red Robin",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10009.jpg",
+      "intelligence": 85,
+      "speed": 72,
+      "combat": 55
+    },
+    {
+      "id": "561",
+      "name": "Robin",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/850.jpg",
+      "intelligence": 84,
+      "speed": 83,
+      "combat": 43
+    },
+    {
+      "id": "574",
+      "name": "Sauron",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10849.jpg",
+      "intelligence": 90,
+      "speed": 89,
+      "combat": 96
+    },
+    {
+      "id": "584",
+      "name": "Shadow King",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/121.jpg",
+      "intelligence": 79,
+      "speed": 42,
+      "combat": 56
+    },
+    {
+      "id": "586",
+      "name": "Shadowcat",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/122.jpg",
+      "intelligence": 95,
+      "speed": 42,
+      "combat": 69
+    },
+    {
+      "id": "587",
+      "name": "Shang-Chi",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/454.jpg",
+      "intelligence": 90,
+      "speed": 88,
+      "combat": 82
+    },
+    {
+      "id": "615",
+      "name": "Speedy",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10558.jpg",
+      "intelligence": 65,
+      "speed": 43,
+      "combat": 95
+    },
+    {
+      "id": "618",
+      "name": "Spider-Girl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/480.jpg",
+      "intelligence": 65,
+      "speed": 77,
+      "combat": 68
+    },
+    {
+      "id": "620",
+      "name": "Spider-Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/133.jpg",
+      "intelligence": 81,
+      "speed": 69,
+      "combat": 54
+    },
+    {
+      "id": "623",
+      "name": "Spider-Woman",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/481.jpg",
+      "intelligence": 99,
+      "speed": 70,
+      "combat": 42
+    },
+    {
+      "id": "641",
+      "name": "Superboy",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/789.jpg",
+      "intelligence": 94,
+      "speed": 55,
+      "combat": 95
+    },
+    {
+      "id": "643",
+      "name": "Supergirl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/790.jpg",
+      "intelligence": 90,
+      "speed": 92,
+      "combat": 61
+    },
+    {
+      "id": "644",
+      "name": "Superman",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/791.jpg",
+      "intelligence": 86,
+      "speed": 58,
+      "combat": 99
+    },
+    {
+      "id": "659",
+      "name": "Thor",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/140.jpg",
+      "intelligence": 83,
+      "speed": 100,
+      "combat": 94
+    },
+    {
+      "id": "686",
+      "name": "Vegeta",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1206.jpg",
+      "intelligence": 49,
+      "speed": 59,
+      "combat": 47
+    },
+    {
+      "id": "687",
+      "name": "Venom",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/22.jpg",
+      "intelligence": 53,
+      "speed": 53,
+      "combat": 91
+    },
+    {
+      "id": "718",
+      "name": "Wonder Girl",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1497.jpg",
+      "intelligence": 61,
+      "speed": 47,
+      "combat": 89
+    },
+    {
+      "id": "719",
+      "name": "Wonder Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/162.jpg",
+      "intelligence": 100,
+      "speed": 54,
+      "combat": 41
+    },
+    {
+      "id": "720",
+      "name": "Wonder Woman",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/807.jpg",
+      "intelligence": 59,
+      "speed": 60,
+      "combat": 71
+    },
+    {
+      "id": "724",
+      "name": "X-Man",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1150.jpg",
+      "intelligence": 62,
+      "speed": 86,
+      "combat": 88
+    },
+    {
+      "id": "729",
+      "name": "Yoda",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10454.jpg",
+      "intelligence": 80,
+      "speed": 69,
+      "combat": 61
+    },
+    {
+      "id": "730",
+      "name": "Zoom",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1384.jpg",
+      "intelligence": 45,
+      "speed": 79,
+      "combat": 81
+    },
+    {
+      "id": "731",
+      "name": "NURIA HEROE",
+      "imageUrl": "http:herlañewjr",
+      "intelligence": 99,
+      "speed": 99,
+      "combat": 99
+    },
+    {
+      "id": "732",
+      "name": "Terminator",
+      "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10409.jpg",
+      "intelligence": 100,
+      "speed": 35,
+      "combat": 35
+    }
+  ]
+}

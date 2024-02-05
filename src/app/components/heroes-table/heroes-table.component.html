@@ -1,0 +1,43 @@
+<table mat-table [dataSource]="heroesList" class="mat-elevation-z8 demo-table">
+    <!-- Position Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>ID</th>
+      <td mat-cell *matCellDef="let element">{{element.id}}</td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef>Name Hero</th>
+      <td mat-cell *matCellDef="let element">{{element.name}}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+        <th mat-header-cell *matHeaderCellDef>Actions</th>
+        <td mat-cell *matCellDef="let row">
+            <mat-icon 
+                class="icon-action" 
+                aria-hidden="false" 
+                aria-label="view detail" 
+                fontIcon="visibility" 
+                (click)="onDetailHeroe(row)"/>
+
+            <mat-icon 
+                class="icon-action" 
+                aria-hidden="false" 
+                aria-label="edit" 
+                fontIcon="edit" 
+                (click)="onEditHeroe(row)" />
+            
+            <mat-icon 
+                class="icon-action" 
+                aria-hidden="false" 
+                aria-label="drop" 
+                fontIcon="delete" 
+                (click)="onDeleteHeroe(row)"/>
+        </td>
+      </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+

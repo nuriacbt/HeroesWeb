@@ -1,0 +1,17 @@
+.container {
+    border: black 1px solid;
+    margin: 1rem;
+    padding: 1rem;
+    width: 700px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.button {
+    margin-top: 1rem;
+}
+

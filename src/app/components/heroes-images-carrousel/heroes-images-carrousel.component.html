@@ -1,0 +1,9 @@
+<div class="carousel-container">
+    <igx-carousel #carousel>
+        <igx-slide *ngFor="let heroe of heroesList">
+            <div class="image-container">
+                <img [src]="heroe.imageUrl">
+            </div>
+        </igx-slide>
+    </igx-carousel>
+  </div>

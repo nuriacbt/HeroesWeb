@@ -1,0 +1,14 @@
+<nav class="navbar navbar-light justify-content-between my-nav">
+    <div class="navbar-brand"> <h1 class="tittle"> Heroes Word </h1> </div>
+    <button mat-fab extended color="primary" class="button" (click)="onHandleBackToList()">
+        Back to list
+    </button>
+</nav>
+
+<div class="container">
+    <app-heroes-form
+        [heroe]="heroe()"
+        (handleSave)="onHandleSaveHeroe($event)"
+    ></app-heroes-form>
+</div>
+

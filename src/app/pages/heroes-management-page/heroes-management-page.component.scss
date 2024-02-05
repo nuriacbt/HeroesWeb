@@ -1,0 +1,22 @@
+.my-nav {
+    background-color: #9cb5d7;
+    margin-bottom: 30px;
+    height: 200px;
+  }
+
+  .tittle {
+    font-size: 2.5rem;
+    margin-left: 10px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .button {
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 10px;
+    margin-right: 10px;
+    &:hover {
+      background-color: #5789ca;
+    }
+  }

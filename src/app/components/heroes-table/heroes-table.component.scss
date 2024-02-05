@@ -1,0 +1,23 @@
+.demo-table {
+    width: 100%;
+  }
+  
+  .demo-button-container {
+    padding-bottom: 16px;
+  }
+  
+  .demo-button + .demo-button {
+    margin-left: 8px
+  }
+
+
+.icon-action {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    transition: all 0.3s;
+    color: black;
+    font-size: 1.5rem;
+    &:hover {
+      color: blue;
+    }
+}

@@ -1,0 +1,33 @@
+
+<div class="container">
+    <form [formGroup]="heroeForm" class="form" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <mat-label>ID:</mat-label>
+            <input matInput placeholder="Id" type="number" formControlName="idCnt" [readonly]="true" [disabled]="true">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Name:</mat-label>
+            <input matInput appUpperText placeholder="Name" type="string" formControlName="nameCnt">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Image url:</mat-label>
+            <input matInput placeholder="ImageUrl" type="string" formControlName="imageUrlCnt">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Intelligence:</mat-label>
+            <input matInput placeholder="Intelligence" type="number" [min]="MIN_HABILITY_VALUE" [max]="MAX_HABILITY_VALUE" formControlName="intelligenceCnt">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Speed:</mat-label>
+            <input matInput placeholder="Speed" type="number" [min]="MIN_HABILITY_VALUE" [max]="MAX_HABILITY_VALUE" formControlName="speedCnt">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Combat:</mat-label>
+            <input matInput placeholder="Combat" type="number" [min]="MIN_HABILITY_VALUE" [max]="MAX_HABILITY_VALUE" formControlName="combatCnt">
+        </mat-form-field>
+
+        <button type="submit" class="button" mat-raised-button color="primary"> Save </button>
+        <button mat-raised-button color="primary" class="button" (click)="onResetForm()"> Restore </button>
+    </form>
+</div>
+

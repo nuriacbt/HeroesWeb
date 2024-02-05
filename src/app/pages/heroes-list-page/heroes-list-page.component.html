@@ -1,0 +1,42 @@
+<nav class="navbar navbar-light justify-content-between my-nav">
+  <div class="navbar-brand"> <h1 class="tittle"> Heroes Word </h1> </div>
+  <form class="form-inline" class="form">
+    <mat-form-field>
+        <mat-label>Heroe Name:</mat-label>
+        <input matInput appUpperText placeholder="Name" type="string" [formControl]="heroeNameBySearch">
+    </mat-form-field>
+
+    <button mat-fab extended color="primary" class="button" (click)="searchHeroeByName($event)">
+      <mat-icon>search</mat-icon> Search
+    </button>
+  </form>
+    <button mat-fab extended color="primary" class="button" (click)="initialProcess()">
+      All heroes
+    </button>
+  
+    <button mat-fab extended color="primary" class="button" (click)="onHandleCreateHeroe()">
+      <mat-icon>add circle</mat-icon> Create Heroe
+    </button>
+</nav>
+
+<div class="warper">
+  <div class="grid-col">
+    <app-heroes-table 
+        [heroesList] = "heroesList()"
+        (handleEditHeroe)="onHandleEditHeroe($event)"
+        (handleDeleteHeroe)="onHandleDeleteHeroe($event)"
+        (handleDetailHeroe)="onHandleDetailHeroe($event)"
+        /> 
+    <div class="page-container">
+        <app-heroes-paginator 
+            [length]="totalListLength()"
+            [pageSize]="pageSize()"
+            [pageIndex]="pageIndex()"
+            (handlePage)="onHandlePage($event)"
+        />
+    </div>
+  </div>
+  <div class="grid-col">
+    <app-heroes-images-carrousel [heroesList]="heroesList()" />
+  </div>
+</div>

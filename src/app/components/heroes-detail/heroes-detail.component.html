@@ -1,0 +1,22 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ heroe.name }}</mat-card-title>
+      <mat-card-subtitle>Hero number: {{ heroe.id }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="heroe.imageUrl" [alt]="heroe.imageUrl">
+    <mat-card-content>   
+        <div class="progress" style="height: 20px;">
+            <label for="file">Intelligence:</label>
+            <progress id="file" max="100" [value]="heroe.intelligence">{{ heroe.intelligence }}%</progress>
+        </div>
+        <div class="progress" style="height: 20px;">
+            <label for="file">Combat:</label>
+            <progress id="file" max="100" [value]="heroe.combat">{{ heroe.combat }}%</progress>
+        </div>
+        <div class="progress" style="height: 20px;">
+            <label for="file">Speed:</label>
+            <progress id="file" max="100" [value]="heroe.speed">{{ heroe.speed }}%</progress>
+        </div>
+    </mat-card-content>
+  </mat-card>

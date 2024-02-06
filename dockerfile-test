@@ -1,0 +1,27 @@
+# base image
+FROM node:21.6.1
+
+# set working directory
+RUN mkdir /usr/src/app
+WORKDIR /usr/src/app
+
+# add .bin to $PATH
+ENV PATH /usr/src/app/node_modules/.bin:$PATH
+
+# install package.json (o sea las dependencies)
+COPY package.json /usr/src/app/package.json
+RUN npm install
+RUN npm install -g @angular/cli@17.1.0
+
+# Install json-server globally
+RUN npm install -g json-server
+
+# add app
+COPY . /usr/src/app
+
+# Expose the ports for Angular app and json-server
+EXPOSE 4200
+EXPOSE 3000
+
+# start app
+CMD json-server --watch db.json & ng serve --host 0.0.0.0

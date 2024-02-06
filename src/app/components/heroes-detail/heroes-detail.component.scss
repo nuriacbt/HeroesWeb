@@ -2,8 +2,32 @@
     max-width: 400px;
   }
   
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
+  .card-head {
+    padding-left: 15px;
   }
+
+  .card-img {
+    margin-top:10px;
+  }
+
+  .card-content {
+    margin-top: 10px;      
+  }
+
+  .section-progress {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .label-progress {
+    font-weight: 800;
+    margin-right: 15px;
+    align-content: end;
+  }
+
+  .bar-progress {
+    width: 68%;
+    height: 20px;
+  } 
   

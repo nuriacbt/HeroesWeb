@@ -1,27 +1,25 @@
 # HeroesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+Proyecto realizado para la prueba técnica, enmarcado dentro del proceso de selección de AUBAY, para el cliente W2M.
+Este consiste en la realización de una Aplicación en Angular 17 para poder gestionar una serie de heroes. Para 
+poder manejar los datos se ha usado la librería json-server, para simular las llamadas a una API real de backend.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Inicio de la aplicación:
 
-## Code scaffolding
+Para poder iniciar la aplicación, hay que ejecutar los siguientes comandos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. npm install, para poder instalar todas las dependencias.
+2. npm run json-server para arrancar el mock que actúa de backend.
+3. npm run start para poder arrancar la aplicación en la siguiente url: `http://localhost:4200/`.
 
-## Build
+## Build de la aplicación
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Se puede ejecutar el comando npm run build para poder compilar la aplicación y generar los artefactos de compilación que se guardarán en la carpeta `dist/` en la raíz del proyecto.
 
-## Running unit tests
+## Sobre docker:
+Se ha conseguido dockerizar la aplicación en modo desarrollo. Una mejora sería, por ejemplo, crear otro dockerfile para producción, generando una imagen más ligera.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Los comandos para crear y ejecutar la imagen son los siguientes:
+1. "docker build -f dockerfile-test -t heroes-app-test ."
+2. "docker-compose -f docker-compose-test.yml up -d --build"

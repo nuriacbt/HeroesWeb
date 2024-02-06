@@ -2,7 +2,7 @@
     <igx-carousel #carousel>
         <igx-slide *ngFor="let heroe of heroesList">
             <div class="image-container">
-                <img [src]="heroe.imageUrl">
+                <img [src]="getSafeUrl(heroe.imageUrl)">
             </div>
         </igx-slide>
     </igx-carousel>

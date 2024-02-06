@@ -1,23 +1,29 @@
 <nav class="navbar navbar-light justify-content-between my-nav">
   <div class="navbar-brand"> <h1 class="tittle"> Heroes Word </h1> </div>
-  <form class="form-inline" class="form">
+</nav>
+
+<div class="actions-bar">
+    <mat-icon 
+        class="icon-action add-icon" 
+        aria-hidden="false" 
+        aria-label="new heroe" 
+        fontIcon="add-circle" 
+        (click)="onHandleCreateHeroe()"/>
+
+  <form class="form-inline" class="form" (submit)="false" >
     <mat-form-field>
         <mat-label>Heroe Name:</mat-label>
-        <input matInput appUpperText placeholder="Name" type="string" [formControl]="heroeNameBySearch">
+        <input matInput appUpperText placeholder="Name" type="string" [formControl]="heroeNameBySearch" (keyup.enter)="searchHeroeByName($event)">
     </mat-form-field>
 
-    <button mat-fab extended color="primary" class="button" (click)="searchHeroeByName($event)">
-      <mat-icon>search</mat-icon> Search
-    </button>
+   <mat-icon 
+        class="icon-action" 
+        aria-hidden="false" 
+        aria-label="search heroe by name" 
+        fontIcon="search" 
+        (click)="searchHeroeByName($event)"/>
   </form>
-    <button mat-fab extended color="primary" class="button" (click)="initialProcess()">
-      All heroes
-    </button>
-  
-    <button mat-fab extended color="primary" class="button" (click)="onHandleCreateHeroe()">
-      <mat-icon>add circle</mat-icon> Create Heroe
-    </button>
-</nav>
+</div>
 
 <div class="warper">
   <div class="grid-col">

@@ -1,4 +1,5 @@
 import { Directive, ElementRef, HostListener } from '@angular/core';
+import { NgControl } from '@angular/forms';
 
 @Directive({
   selector: '[appUpperText]',
@@ -6,9 +7,13 @@ import { Directive, ElementRef, HostListener } from '@angular/core';
 })
 export class UpperTextDirective {
 
+  constructor(private el: ElementRef, private control : NgControl) {
+
+  }
+
   @HostListener('input', ['$event']) onInput(event: KeyboardEvent) {
-    const input = event.target as HTMLInputElement;
-    input.value = input.value.toUpperCase();
+    let upper = this.el.nativeElement.value.toUpperCase();
+    this.control.control?.setValue(upper);
   }
 
 }

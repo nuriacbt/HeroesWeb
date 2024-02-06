@@ -1,4 +1,6 @@
 .my-nav {
+    display: flex;
+    align-content: center;
     background-color: #9cb5d7;
     margin-bottom: 30px;
     height: 200px;
@@ -9,13 +11,14 @@
     margin-left: 10px;
     font-weight: 500;
     color: white;
+    margin-left: 50px;
   }
 
   .button {
     cursor: pointer;
     transition: all 0.3s;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
     &:hover {
       background-color: #5789ca;
     }

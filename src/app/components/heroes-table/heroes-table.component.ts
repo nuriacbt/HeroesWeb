@@ -13,11 +13,12 @@ import {MatIconModule} from '@angular/material/icon';
 export class HeroesTableComponent {
 
   @Input() heroesList: Heroe[] = [];
+
+  @Output() handleEditHeroe = new EventEmitter<Heroe>();
+  @Output() handleDeleteHeroe = new EventEmitter<Heroe>();
+  @Output() handleDetailHeroe = new EventEmitter<Heroe>();
   
-  @Output() handleEditHeroe = new EventEmitter<any>();
-  @Output() handleDeleteHeroe = new EventEmitter<any>();
-  @Output() handleDetailHeroe = new EventEmitter<any>();
-  
+
   public displayedColumns: string[] = ['id', 'name', 'actions'];
 
   onEditHeroe(row: Heroe) {

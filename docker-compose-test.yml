@@ -1,0 +1,15 @@
+version: '1.0'
+
+services:
+
+  heroes-app-test:
+    container_name: heroes-app-test
+    build:
+      context: .
+      dockerfile: dockerfile-test
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '4200:4200'
+      - '3000:3000'

@@ -1,6 +1,6 @@
 
 <div class="container">
-    <form [formGroup]="heroeForm" class="form" (ngSubmit)="onSubmit()">
+    <form [formGroup]="heroeForm" class="form" (ngSubmit)="false">
         <mat-form-field>
             <mat-label>ID:</mat-label>
             <input matInput placeholder="Id" type="number" formControlName="idCnt" [readonly]="true" [disabled]="true">
@@ -26,7 +26,7 @@
             <input matInput placeholder="Combat" type="number" [min]="MIN_HABILITY_VALUE" [max]="MAX_HABILITY_VALUE" formControlName="combatCnt">
         </mat-form-field>
 
-        <button type="submit" class="button" mat-raised-button color="primary"> Save </button>
+        <button mat-raised-button color="primary" class="button" (click)="onSubmit()"> Save </button>
         <button mat-raised-button color="primary" class="button" (click)="onResetForm()"> Restore </button>
     </form>
 </div>

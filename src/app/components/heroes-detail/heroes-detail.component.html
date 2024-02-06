@@ -1,22 +1,21 @@
 <mat-card class="example-card">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-header class="card-head">
       <mat-card-title>{{ heroe.name }}</mat-card-title>
       <mat-card-subtitle>Hero number: {{ heroe.id }}</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image [src]="heroe.imageUrl" [alt]="heroe.imageUrl">
-    <mat-card-content>   
-        <div class="progress" style="height: 20px;">
-            <label for="file">Intelligence:</label>
-            <progress id="file" max="100" [value]="heroe.intelligence">{{ heroe.intelligence }}%</progress>
+    <img class="card-img" mat-card-image [src]="getSafeUrl(heroe.imageUrl)" [alt]="heroe.imageUrl">
+    <mat-card-content class="card-content">   
+        <div class="progress section-progress" style="height: 20px;">
+            <label for="file" class="label-progress">Intelligence ({{heroe.intelligence }}%):</label>
+            <progress id="file" class="bar-progress" max="100" [value]="heroe.intelligence"></progress>
         </div>
-        <div class="progress" style="height: 20px;">
-            <label for="file">Combat:</label>
-            <progress id="file" max="100" [value]="heroe.combat">{{ heroe.combat }}%</progress>
+        <div class="progress section-progress" style="height: 20px;">
+            <label for="file" class="label-progress">Combat ({{heroe.combat }}%):</label>
+            <progress id="file" class="bar-progress" max="100" [value]="heroe.combat"></progress>
         </div>
-        <div class="progress" style="height: 20px;">
-            <label for="file">Speed:</label>
-            <progress id="file" max="100" [value]="heroe.speed">{{ heroe.speed }}%</progress>
+        <div class="progress section-progress" style="height: 20px;">
+            <label for="file" class="label-progress">Speed ({{heroe.speed }}%):</label>
+            <progress id="file" class="bar-progress" max="100" [value]="heroe.speed"></progress>
         </div>
     </mat-card-content>
   </mat-card>

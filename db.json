@@ -2,7 +2,7 @@
   "heroes": [
     {
       "id": "23",
-      "name": "Angel-modify",
+      "name": "ANGEL-Ok",
       "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10431.jpg",
       "intelligence": 56,
       "speed": 74,
@@ -18,9 +18,9 @@
     },
     {
       "id": "28",
-      "name": "Animal Man",
+      "name": "ANIMAL MAN MODIFy",
       "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/632.jpg",
-      "intelligence": 69,
+      "intelligence": 78,
       "speed": 53,
       "combat": 44
     },
@@ -34,7 +34,7 @@
     },
     {
       "id": "34",
-      "name": "Anti-Venom",
+      "name": "Anti-Venom ",
       "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1485.jpg",
       "intelligence": 77,
       "speed": 80,
@@ -42,7 +42,7 @@
     },
     {
       "id": "38",
-      "name": "Aquaman",
+      "name": "AQUAMAN TEST ",
       "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/634.jpg",
       "intelligence": 96,
       "speed": 40,
@@ -50,7 +50,7 @@
     },
     {
       "id": "40",
-      "name": "Archangel",
+      "name": "ARCHANGEL MODIFYy",
       "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/838.jpg",
       "intelligence": 73,
       "speed": 50,
@@ -58,7 +58,7 @@
     },
     {
       "id": "47",
-      "name": "Astro Boy",
+      "name": "ASTRO BOY",
       "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/1159.jpg",
       "intelligence": 93,
       "speed": 64,
@@ -66,7 +66,7 @@
     },
     {
       "id": "49",
-      "name": "Atlas",
+      "name": "ATLAS UPPER TESt",
       "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/10838.jpg",
       "intelligence": 72,
       "speed": 63,
@@ -74,7 +74,7 @@
     },
     {
       "id": "50",
-      "name": "Atom",
+      "name": "ATOM MOd",
       "imageUrl": "https://www.superherodb.com/pictures2/portraits/10/100/934.jpg",
       "intelligence": 100,
       "speed": 83,
@@ -887,6 +887,22 @@
       "intelligence": 100,
       "speed": 35,
       "combat": 35
+    },
+    {
+      "id": "733",
+      "name": "NURIA HEROe ",
+      "imageUrl": "",
+      "intelligence": 30,
+      "speed": 30,
+      "combat": 30
+    },
+    {
+      "id": "734",
+      "name": "TEST NEW",
+      "imageUrl": "",
+      "intelligence": 30,
+      "speed": 30,
+      "combat": 30
     }
   ]
 }
